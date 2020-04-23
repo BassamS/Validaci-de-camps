@@ -1,15 +1,9 @@
 // Login form
-const form = document.getElementById('form');
-const username = document.getElementById('username');
-const email = document.getElementById('email');
-const password = document.getElementById('password');
-const password2 = document.getElementById('password2');
-
-form.addEventListener('submit', e => {
-  e.preventDefault();
-
-  checkInputs();
-});
+let form = document.forms['vform']['form'];
+let username = document.forms['vform']['username'];
+let email = document.forms['vform']['email'];
+let password = document.forms['vform']['password'];
+let password2 = document.forms['vform']['password2'];
 
 function checkInputs() {
 
