@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel='icon' href='../images/favicon.ico' type='image/x-icon' />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/login.css">
+
+  <title>JS Project ITA</title>
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand img-responsive logo" href="#"><img src="../images/logo.png" alt="logo"></a>
+    </div>
+  </nav>
+
+  <!-- Input form -->
+  <div class="container-form">
+    <div class="header-form bg-info text-center">
+      <h2>Login</h2>
+    </div>
+    <form action="./index.html" method="POST" id="form" class="form bg-info">
+
+      <!-- Username Input -->
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" placeholder="Username" id="username" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+
+      <!-- Email Input -->
+      <div class="form-group">
+        <label for="username">Email</label>
+        <input type="email" placeholder="a@gmail.com" id="email" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+
+      <!-- Submit button -->
+      <button class="btn btn-light btn-lg btn-block">SUBMIT</button>
+    </form>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
